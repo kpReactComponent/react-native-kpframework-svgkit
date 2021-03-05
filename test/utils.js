@@ -1,6 +1,6 @@
 import {expect} from 'chai';
 
-import {transformStyle, camelCase, removePixelsFromNodeValue, getEnabledAttributes} from '../utils';
+import {transformStyle, camelCase, removePixelsFromNodeValue, getEnabledAttributes} from '../src/utils';
 
 describe('transformStyle', () => {
   it('transforms style attribute', () => {

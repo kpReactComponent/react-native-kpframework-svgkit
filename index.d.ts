@@ -6,7 +6,7 @@
 import React, { Component } from 'react'
 import { ImageURISource } from 'react-native'
 
-interface SvgUriProps {
+interface SvgImageProps {
     /**
      * The width of the rendered svg
      */
@@ -46,4 +46,4 @@ interface SvgUriProps {
     fillAll?: boolean
 }
 
-export default class SvgUri extends Component<SvgUriProps, {}> { }
+export class SvgImage extends Component<SvgImageProps, {}> { }
